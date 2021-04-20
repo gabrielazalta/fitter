@@ -28,7 +28,7 @@ const SingleStory = props => {
           <span style={{ fontWeight: 700 }} className="reaction-story text-light">
             {story.username}
           </span>{' '}
-          story on {story.createdAt}
+          Story on {story.createdAt}
         </p>
         <div className="reaction-story card-body">
           <p className="reaction-story">{story.storyText}</p>

@@ -21,7 +21,7 @@ const StoryList = ({ stories, title }) => {
               >
                 {story.username}
               </Link>{' '}
-              story on {story.createdAt}
+              Story on {story.createdAt}
             </p>
             <div className="card-body body-text">
               <Link to={`/story/${story._id}`}>
