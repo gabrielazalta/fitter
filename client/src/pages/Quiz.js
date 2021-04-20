@@ -1,5 +1,7 @@
 import React,{useState} from 'react';
+import { Link } from 'react-router-dom';
 import '../Quiz.css'
+
 
 //List of Questions and Answers
 export default function Quiz() {
@@ -65,9 +67,12 @@ export default function Quiz() {
 		<div className="app quiz mt-5 container">
 			{}
 			{showScore ? (
+                <div>
 				<div className="score-section text-center question-text">You completed {score} out of {questions.length} goals this week!</div>
+                <Link className="nav-link back" to="/profile"><i class="fas fa-long-arrow-alt-left"></i> back to my profile</Link>
+                </div>
 			) : (
-				<>
+				<p>
                 <div className="row m-3">
 					<div className="col-12 question-section">
 						<div className="question-count text-center">
@@ -90,7 +95,7 @@ export default function Quiz() {
 						
 					</div>
                 </div>
-				</>
+				</p>
 			)}
 		</div>
 	);

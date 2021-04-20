@@ -8,11 +8,12 @@
 }
 
 .back {
-    font-size: 22px;
+    font-size: 19px;
+    font-weight: lighter;
+    text-align: center;
 }
 .back:hover {
     color: black;
-    background-color: #fdefc4;
 }
 
 .result-text {
@@ -32,6 +33,7 @@
 
 .fa-long-arrow-alt-left:hover {
     text-decoration: none;
+    background-color: none;
 }
 
 .answerBtn {

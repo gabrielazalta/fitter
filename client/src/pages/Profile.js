@@ -88,7 +88,7 @@ const Profile = () => {
     <div className="m-5 row">
 
             <div className="m-2 p-2 mb-5 col">
-                <h3 className="calendar-title text-center"> Your Activities</h3>
+                <h3 className="calendar-title text-center border-bottom border-success"> Your Activities</h3>
                 {activities &&
                 activities.map(activity => (
                 <div key={activity._id} className="text4 text-center calendar-input">
@@ -171,7 +171,7 @@ const Profile = () => {
 
             {/* Health questions */}
             <div className="m-2 p-2 mb-5 col">
-                <h3 className="calendar-title text-center"> Your Goals</h3>
+                <h3 className="calendar-title text-center border-bottom border-success"> Your Goals</h3>
                 {goals &&
                 goals.map(goal => (
                 <div key={goal._id} className="text4 text-center calendar-input">
