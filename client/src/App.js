@@ -13,7 +13,6 @@ import Signup from './pages/SignupForm';
 import Footer from './components/Footer';
 import './App.css';
 import Quiz from './pages/Quiz';
-import LandingPage from './components/LandingPage';
 
 const client = new ApolloClient({
   request: operation => {

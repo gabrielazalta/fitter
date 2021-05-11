@@ -1,0 +1,29 @@
+.answer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+}
+
+.answer li {
+    padding: 10px;
+    border-left: 4px solid #91c788;
+    background-color: white;
+    margin: 0 0 5px;
+}
+
+.answer li:hover {
+    cursor: pointer;
+    background-color: #faf7eea9;
+}
+
+.answer[disabled] {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.clickedAnswer {
+    cursor: pointer;
+    background-color: black;
+}

@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Baumans&family=Tajawal:wght@200;300&display=swap");
+
+
+.quiz h1 {
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: normal;
+    color: #52734d;
+    text-transform: none;
+    text-shadow: none;
+    text-align: left;
+}
